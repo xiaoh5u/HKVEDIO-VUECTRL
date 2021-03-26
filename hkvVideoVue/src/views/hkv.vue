@@ -148,10 +148,10 @@ export default {
 	data () {
 		return {
 			hkvInfo: {
-				ip: '218.3.18.26',//海康威视摄像头/硬盘录像机的ip地址
-				port: '6740',//海康威视摄像头/硬盘录像机的端口
+				ip: 'xxx.xxx.xxx.xxx',//海康威视摄像头/硬盘录像机的ip地址
+				port: '',//海康威视摄像头/硬盘录像机的端口
 				username: 'admin',//海康威视摄像头/硬盘录像机的用户名
-				password: 'a8888888',//海康威视摄像头/硬盘录像机的密码
+				password: '',//海康威视摄像头/硬盘录像机的密码
 				channels: [],//海康威视摄像头/硬盘录像机的通道
 			},
 			mySelectWnd: 0,//当前选中的窗口
